@@ -26,5 +26,4 @@ urlpatterns = [
   path(r'showPersonalinformation',views.showPersonalinformation),
   path(r'uploadFile',views.uploadFile),
   path(r'downloadFile',views.downloadFile),
-  
 ]
