@@ -8,23 +8,23 @@ def sayHello(request):
     return render(request, 'index.html', context)
   return HttpResponse(html)
        
-def signUp(request)
+def signUp(request): 
+  return HttpResponse("还未开发完成。")
+
+def signIn(request): 
   pass
 
-def signIn(request)
+def loginOut(request): 
   pass
 
-def loginOut(request)
-  pass
-
-def listFile(request)
+def listFile(request): 
   pass
   
-def showPersonalinformation(request)
+def showPersonalinformation(request): 
   pass
 
-def uploadFile(request)
+def uploadFile(request): 
   pass
 
-def downloadFile(request)
+def downloadFile(request): 
   pass
