@@ -15,16 +15,21 @@ def signIn(request):
   pass
 
 def loginOut(request): 
+  return HttpResponse("还未开发完成。")
   pass
 
 def listFile(request): 
+  return HttpResponse("还未开发完成。")
   pass
   
 def showPersonalinformation(request): 
+  return HttpResponse("还未开发完成。")
   pass
 
 def uploadFile(request): 
+  return HttpResponse("还未开发完成。")
   pass
 
 def downloadFile(request): 
+  return HttpResponse("还未开发完成。")
   pass

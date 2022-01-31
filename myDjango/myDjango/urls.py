@@ -17,7 +17,14 @@ from django.contrib import admin
 from django.urls import path
 from first import views
 urlpatterns = [
-    path('', views.sayHello),
+  path('', views.sayHello),
 #    path('admin/', admin.site.urls),
-    path(r'signUp',views.signUp),
+  path(r'signUp',views.signUp),
+  path(r'signIn',views.signIn),
+  path(r'loginOut',views.loginOut),
+  path(r'listFile',views.listFile),
+  path(r'showPersonalinformation',views.showPersonalinformation),
+  path(r'uploadFile',views.uploadFile),
+  path(r'downloadFile',views.downloadFile),
+  
 ]
